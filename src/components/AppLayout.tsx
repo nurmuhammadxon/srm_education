@@ -6,6 +6,7 @@ import {
   UserPlus,
   ClipboardCheck,
   Wallet,
+  CreditCard,
   Settings,
   LogOut,
   type LucideIcon,
@@ -29,6 +30,7 @@ const nav: { to: string; label: string; icon: LucideIcon; roles: Role[] }[] = [
   { to: "/groups", label: "Guruhlar", icon: Layers, roles: ["ceo", "admin", "teacher"] },
   { to: "/students", label: "O'quvchilar", icon: Users, roles: ["ceo", "admin", "teacher"] },
   { to: "/exams", label: "Imtihonlar", icon: ClipboardCheck, roles: ["ceo", "admin", "teacher"] },
+  { to: "/payments", label: "To'lovlar", icon: CreditCard, roles: ["ceo", "admin"] },
   { to: "/finance", label: "Moliya", icon: Wallet, roles: ["ceo"] },
   { to: "/settings", label: "Sozlamalar", icon: Settings, roles: ["ceo"] },
 ]
